@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/cybrox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cybrox.eu
+  * I am cybrox (https://keybase.io/cybrox) on keybase.
+  * I have a public key with fingerprint 78B4 EDFE 2BB7 65C3 C20C  53F9 D77D 7C1A 1174 9A45
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101222df92e924fea4058ae0d1a5f73ef88ac47dd85363a909a4a4620d7783b1a280a",
+            "fingerprint": "78b4edfe2bb765c3c20c53f9d77d7c1a11749a45",
+            "host": "keybase.io",
+            "key_id": "d77d7c1a11749a45",
+            "kid": "0101222df92e924fea4058ae0d1a5f73ef88ac47dd85363a909a4a4620d7783b1a280a",
+            "uid": "16dd9638884370445074ae4d37fe0e19",
+            "username": "cybrox"
+        },
+        "service": {
+            "hostname": "cybrox.eu",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472110641,
+    "expire_in": 157680000,
+    "prev": "71a38f7f834b8604663271ceeab01eaea032d763ccb86b72a33dba1fed0bb956",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJdSBVBGL2aGhr2g3WhejC2QAKTmZ3dnb03KDArUDTU/MGsy8zOrK7a
+3eu9q2lqD1FpRpkYRUSRJCKRUvZjEkr+gMEVKiRBECJ6iBCKKIzIolmph6DH5mWY
+851z5nwf32TyCk9SzM+i4fyJYtoYEx3rrPOUjN6ETRK1WaPkb5Kq+fLFaxiPOIFq
+i0l+CUAAZVlmpk/mPlkxOVGAqhMOGCSqiRE3dZ0YCmZMV5GGiA/4iEIUTQYMYx1R
+SGQdECldMq1gBQ+HwlbQEbZYpwpnJpcpxZpqIEMGhopMnxAxbEACIVaEkSqElXbE
+VYhwlER4hmULTDwCy/H+wf/PueuW7aDGmE9Duq4rCANFUQFWCFcYwiYHHPpcYoSH
+g+QoF2yjkYbtBqklXRJYvWVwd6xuH3/VM3idkIXCtmMbdo2AKx0n5HdVTmPIpR3j
+NPDbIECtIBMTFIJ6Ho5YdlDyQ8E0HMt1hAqWIQSaAtMl3hCywjxguQwVazoQx/2G
+17tzhwTpJjZ1pFBdA4qmIRlDg3NCAeSEE4BkhjVkGKJMsUwQYpRAkzNAqU/VJLel
+2qAt+XURk1QIy4hVESROXZhLLeNPy+M8MUmehPhYd7M8SYlr/+zbrt0rf2zuG8qf
++eIt7Lg01xzYODc18rZ1qfJJ8r6lhc6ne+Pz24ujfQcT31ixcWDjy4faDY7aOq9X
+DdHm72lnhnOPfyyP7u0xX/2YzjqVMp4duXVkFPn7c29VTTtdCbV5B2p6s74dytva
+dtg/792yoXQ2Pli2M9VZ+Pnsxd3t73Zm7cm8ve9868TwuqILR/Oz2q4tTtndKQ9i
+eqraM4g3szsWtpewNbsSSx9n7qif6X8zVjZbuC2Vzvf3DvZ8KFryXi4rOde1qmQg
+oaP0xOH3C1c+38/JXm3nbJoseHC2lc9aSUvei2c+7X8evXdnYHC2ZyQ9LefUyZro
+o+mrRQXrvwb46deL1Qu/AEIIPfM=
+=cFq/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cybrox
+
+==================================================================
+
