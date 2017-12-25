@@ -5,7 +5,7 @@ $(document).ready(function() {
     window.multiplier  = ($(window).innerWidth() > 1000) ? 0.75 : 0.00;
     window.mainHeight  = $(window).outerHeight();
 
-    $('.page-footer').css('margin-top', ($(window).innerHeight() * multiplier + 50) + 'px');
+    $('.page-details').css('margin-top', ($(window).innerHeight() * multiplier + 50) + 'px');
 
     $(window).on('scroll', function() {
         if (($(window).scrollTop() + $(window).height() > window.usualHeight) &&
@@ -21,7 +21,7 @@ $(document).ready(function() {
         window.multiplier  = ($(window).innerWidth() > 1000) ? 0.75 : 0.00;
         window.mainHeight  = $(window).outerHeight();
 
-        $('.page-footer').css('margin-top', ($(window).innerHeight() * multiplier + 50) + 'px');
+        $('.page-details').css('margin-top', ($(window).innerHeight() * multiplier + 50) + 'px');
     });
 
     $('.page-down-click').click(function() {
