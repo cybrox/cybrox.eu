@@ -136,6 +136,10 @@ body {
     margin: 45% 12.5% 20px 12.5%
 }
 
+    .page-details.instant-details {
+        margin: 20px 12.5%;
+    }
+
     .page-split {
         width: 100%;
         margin: 0;
@@ -170,6 +174,10 @@ body {
                     opacity: 0.3;
                 }
 
+                .row-title-pull {
+                    float: right;
+                }
+
             .page-row-item {
                 display: block;
                 font-size: 1.5em;
@@ -178,12 +186,26 @@ body {
                 padding-bottom: 8px;
             }
 
+                .item-year {
+                    color: #4a4a4a;
+                }
+
                 .page-row-desc {
                     display: block;
                     font-size: 0.6em;
                     text-transform: none;
                     padding-bottom: 13px;
                 }
+
+                    .page-row-desc.inital-desc {
+                        font-size: 1em;
+                        color: #74736B;
+                        text-align: justify;
+                    }
+
+                    .page-row-desc.desc-spaced {
+                        padding-top: 5px;
+                    }
 
                 .page-row-item .text {
                     font-weight: bold;
