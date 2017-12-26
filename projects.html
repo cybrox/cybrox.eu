@@ -39,97 +39,170 @@
                     <span class="page-row-item">
                         <span class="item-year">2017 &bull;</span> Segelbrand.ch
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-wat">wip</span>
+                            <span class="link"><a href="https://github.com/segelbrand"><i>&#xf113;</i></a></span>
+                            <span class="link"><a href="http://segelbrand.ch"><i>&#xe805;</i></a></span>
+                            Official, small informative website for the Segelbrand e.V.<br />
+                            Deployed to GitHub pages.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2017 &bull;</span> Multuino
                         <span class="page-row-desc desc-spaced">
-                            ...
-                        </span>
-                    </span>
-                    <span class="page-row-item">
-                        <span class="item-year">2017 &bull;</span> Elixir INWX Domrobot
-                        <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/cybrox/multuino"><i>&#xf113;</i></a></span>
+                            Arduino Sketch for creating an all-in-one IR and computer remote.<br />
+                            Because handling remotes
+                            for multiple devices is laborious and retail all-in-one remotes are ugly bricks, this aims
+                            to solve the problem in a more creative way. An arduino with IR sender- and receiver is used
+                            to translate signals from one, small remote into IR signals expected by various devices.
+                            Additionally, since the device used is a 32U4 based device, its keyboard emulation capabilites
+                            are used to implement general remote control functionality for the connected computer.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2017 &bull;</span> Wroomba
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/cybrox/wroomba"><i>&#xf113;</i></a></span>
+                            A convenience project for scheduling on cheap Roombas.<br />
+                            Born from the research for finding a WiFi and Bluetooth capable development board. The ESP32
+                            running FreeRTOS has proven to be one of the best devices out there for tinkering low-level network
+                            connected applications. Wroomba uses Roomba's Open Interface (ROI) for interfacing with Roomba cleaning
+                            robots and exposing a simple HTTP API for starting cleaning. The software is considered finished as is,
+                            since it does it's only job - automatic cleaning - very well. However, there's still a broken Roomba
+                            around that could need some additional tinkering.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2017 &bull;</span> Cloud Cloud API
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/cybrox/cloud-cloud-api"><i>&#xf113;</i></a></span>
+                            A cloud based server for a literal cloud showing clouds. <br />
+                            Inspired by <a href="https://learn.sparkfun.com/tutorials/led-cloud-connected-cloud">this SparkFun project</a>
+                            it became clear that our office needed a cloud connected cloud as well. While mainly started as a fun project,
+                            this proved to be a good opportunity for playing with multi-connection socket handling and message passing in
+                            Elixir. The cloud server will either fetch the current weather information or be manually controlled by a simple
+                            webinterface.
+                        </span>
+                    </span>
+                    <span class="page-row-item">
+                        <span class="item-year">2017 &bull;</span> Elixir INWX Domrobot
+                        <span class="page-row-desc desc-spaced">
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/cybrox/inwx-domrobot-elixir"><i>&#xf113;</i></a></span>
+                            <span class="link"><a href="https://hex.pm/packages/inwx_domrobot"><i>&#xe805;</i></a></span>
+                            An Elixir wrapper for using the INWX "domrobot". <br />
+                            This was my first attempt of writing a package for the hex package manager and generally one of
+                            my very first actual Elixir projects. The current implementation, while completely untested, has
+                            few enough moving parts to probably not break instantly. However, it does stay a learning experience
+                            and not a stable software.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2016 &bull;</span> ramworldrecord.com
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="http://ramworldrecord.com"><i>&#xe805;</i></a></span>
+                            Anchor CMS based website for organizing 2016's RAM world record. <br />
+                            Breaking a world record is an exciting task, even if one's contribution consists only of handling the
+                            technical details. Either way, the site succeeded in helping the team with organizing sign-up and fan-out
+                            for newsletter and registrations to all participants and led to a successful world record.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2016 &bull;</span> 0 Zythum Mod
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-nok">defunct</span>
+                            <span class="link"><a href="https://github.com/cybrox/zythum"><i>&#xf113;</i></a></span>
+                            <span class="link"><a href="https://mods.factorio.com/mods/cybrox/zythum"><i>&#xe805;</i></a></span>
+                            A Factorio mod meant to clean up the horrible mess created by custom modpacks.<br />
+                            Using pretty solid shell- and ingame hook based tooling, this mod collected item and building information
+                            from all mods in order to create templates for sorting them in proper categories. Ultimately, while the
+                            mod did find some success, the effort of sorting the ever-growing modbase and the comparably low adaption
+                            lead to it not being developed any further. Last time I checked, the mess without it is still horrible.
+                            If nothing else, this sure was a huge LUA and Bash learning experience!
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2015 &bull;</span> Giftfox
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-nok">defunct</span>
+                            <span class="link"><a href="https://github.com/cybrox/giftfox"><i>&#xf113;</i></a></span>
+                            A bot for winning steamgifts.com gifts without effort. <br />
+                            Let's face it, botting on giveaway sites is not exactly the most holy move in the book. While other sites
+                            had harsh restrictions on it, though, steamgifts was rather liberal in handling botting. Giving away games
+                            to rank up and then botting higher-level rewards seemed like a pretty fair trade. The project got eventually
+                            defunct because everyone using it, myself included, lost interest in winning random games.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2015 &bull;</span> SlothPHP
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-nok">defunct</span>
+                            <span class="link"><a href="https://github.com/cybrox/slothphp"><i>&#xf113;</i></a></span>
+                            A very pragmatic MVC-ish PHP framework. <br />
+                            Not being satisfied with the state of PHP MVC frameworks at the time, I decided to write my own, very pragmatic
+                            framework for solving exactly the problems I faced. While this obviously was no great success and was written
+                            way to specific, it still was exciting creating a web framework from the ground up. I have since moved on to
+                            better frameworks and miles away from PHP.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2014 &bull;</span> Hummingbird / Kitsu
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/hummingbird-me"><i>&#xf113;</i></a></span>
+                            <span class="link"><a href="http://kitsu.io"><i>&#xe805;</i></a></span>
+                            A modern anime discovery and tracking platform. <br />
+                            Arguably the most important project in kickstarting software development for me. After building some convenient
+                            tools for the community, I joined the team as the second dev ever "hired". I do take pride in knowing that I
+                            pulled the project and the team through some tough times until we got more developers on board and I eventually
+                            burned out on working on it.<br /><br />
+                            I went into this mess of Ruby on Rails and hacky JS tooling, not knowing a single bit of either and left from
+                            a textbook dockerized Ember/Rails application. While I can only take credit for a small portion of all of that,
+                            it is save to say that this was one of the most amazing projects I ever had the chance to work on. Still riding
+                            at the front of technological development, I wish the company that has grown out of this humble hobby project
+                            nothing but the best.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2014 &bull;</span> GCode Renderer "Liquid"
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-ok">finished</span>
+                            <span class="link"><a href="https://github.com/cybrox/Liquid-gcode-renderer"><i>&#xf113;</i></a></span>
+                            THREE.js based GCode renderer.<br />
+                            Assembling and fine tuning our company's first 3D - Printer, the need for visualizing models already sliced into
+                            GCode files arose. Sure, there's out-of-the box solutions but GCode is a simple protocol, so why not build a
+                            renderer myself... While this was only an internal experiment at first, the unpolished code was published on
+                            GitHub. Years after actual development, this project's license has been changed to the classical MIT license
+                            in order to allow tinkerers to use it.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2014 &bull;</span> CrunchDB
                         <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-nok">defunct</span>
+                            <span class="link"><a href="https://github.com/cybrox/crunchdb"><i>&#xf113;</i></a></span>
+                            JSON - file based database system written in PHP. <br />
+                            While CrunchDB probably does a lot of things right in terms of conveniently querying and updating information,
+                            it does just about everything wrong in being an actual production-ready database. - For a very good reason, though.
+                            Back in the day, I was building lots of PHP tools, mostly for myself or internal purposes which required an easy
+                            to set-up and easy to handle database without all the complexity of an actual database system. Thus, CrunchDB was born.
+                            A terribly inefficient file-based database without locks or syncs but just right for single-person applications.
                         </span>
                     </span>
                     <span class="page-row-item">
                         <span class="item-year">2013 &bull;</span> Hummingboard
                         <span class="page-row-desc desc-spaced">
-                            ...
-                        </span>
-                    </span>
-                    <span class="page-row-item">
-                        <span class="item-year">2013 &bull;</span> Weather Evaluation Tool
-                        <span class="page-row-desc desc-spaced">
-                            ...
-                        </span>
-                    </span>
-                    <span class="page-row-item">
-                        <span class="item-year">2013 &bull;</span> Calendar Administration Tool
-                        <span class="page-row-desc desc-spaced">
-                            ...
-                        </span>
-                    </span>
-                    <span class="page-row-item">
-                        <span class="item-year">2013 &bull;</span> Simple TicTacToe
-                        <span class="page-row-desc desc-spaced">
-                            ...
+                            <span class="tag tag-nok">defunct</span>
+                            <span class="link"><a href="https://github.com/cybrox/hummingboard"><i>&#xf113;</i></a></span>
+                            A collection of useful tools for Hummingbird members. <br />
+                            As one of the fewer community members with a software development background in the early days, Hummingboard was my
+                            way of extending Hummingbird's functionality with everything I missed. Generating quite a lot of positive responses
+                            in the community, this was what eventually led to me joining the site team, building Hummingbird for over a year and
+                            eventually helping out in them starting Kitsu Media, Inc. 
                         </span>
                     </span>
                     <span class="page-row-item">

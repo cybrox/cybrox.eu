@@ -205,7 +205,45 @@ body {
 
                     .page-row-desc.desc-spaced {
                         padding-top: 5px;
+                        text-align: justify;
                     }
+
+                        .desc-spaced a {
+                            border-bottom: 1px dotted #666;
+                        }
+
+                        .link {
+                            font-size: 1.2em;
+                        }
+
+                        .link a {
+                            border-bottom: none;
+                        }
+
+                        .link, .tag {
+                            display: inline-block;
+                            padding: 1px 3px;
+                            border: 1px solid #666666;
+                            border-radius: 3px;
+                        }
+
+                        .tag {
+                            border-width: 2px;
+                            text-transform: uppercase;
+                        }
+
+                            .tag-ok {
+                                border-color: #66CD00 !important;
+                            }
+
+                            .tag-nok {
+                                border-color: #EE4000 !important;
+                            }
+
+                            .tag-wat {
+                                border-color: #1874CD !important;
+                            }
+
 
                 .page-row-item .text {
                     font-weight: bold;
